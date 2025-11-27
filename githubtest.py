@@ -10,5 +10,5 @@ print(args.test)
 print("HeyHoy")
 
 
-# root = tk.Tk()
-# root.mainloop()
+root = tk.Tk()
+root.mainloop()
