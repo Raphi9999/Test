@@ -7,12 +7,10 @@ ap.add_argument("--text", required=True)
 
 args = ap.parse_args()
 
-print(args.test)
-print("HeyHoy")
 
 
 root = tk.Tk()
-root.title(args.text)
+root.title(args.text + args.test)
 
 text = tk.Label(root, text=args.text)
 root.mainloop()
