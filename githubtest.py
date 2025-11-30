@@ -12,6 +12,7 @@ print("HeyHoy")
 
 
 root = tk.Tk()
+root.title = args.text
 
 
 text = tk.Label(root, text=args.text)
